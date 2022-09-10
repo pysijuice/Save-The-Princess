@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class KillEnemy : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] GameObject lightning;
+    [SerializeField] GameObject explosionParticle;
     private void OnMouseDown()
     {
+        explosionParticle.SetActive(true);
+        explosionParticle.transform.parent = null;
         Destroy(gameObject);
+        
+        
     }
 }
