@@ -5,10 +5,11 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    [SerializeField] Transform princess;
+    private Transform princess;
     private NavMeshAgent agent;
     void Start()
     {
+        princess = GameObject.FindWithTag("Princess").transform;
         agent = GetComponent<NavMeshAgent>();
     }
 
