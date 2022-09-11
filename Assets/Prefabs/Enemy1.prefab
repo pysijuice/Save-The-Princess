@@ -95,7 +95,7 @@ Transform:
   m_GameObject: {fileID: 440714268702471102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 21.989388, y: 55.97, z: -11.765195}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6773958433016601679}
@@ -148,9 +148,9 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.53
   m_Speed: 3.5
-  m_Acceleration: 8
+  m_Acceleration: 12.8
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 258.51
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -2210,7 +2210,7 @@ GameObject:
   - component: {fileID: 6773958433016601679}
   - component: {fileID: 75290950682599739}
   m_Layer: 0
-  m_Name: Ch43
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
